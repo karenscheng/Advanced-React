@@ -55,13 +55,11 @@ const StyledHeader = styled.header`
 const Header = () => (
     <StyledHeader>
         <div className="bar">
-        <h1>
             <Logo>
                 <Link href="/">
                     <a>Sick Fits</a>
                 </Link>
             </Logo>
-        </h1>
         <Nav />
         </div>
         <div className="sub-bar">
