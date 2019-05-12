@@ -36,7 +36,7 @@ class Item extends Component {
                     }}>
                         <a>Edit ✏️</a>
                     </Link>
-                    <AddToCart id={item.id} title={item.title} price={item.price} image={item.image} />
+                    <AddToCart id={item.id} />
                     <DeleteItem id={item.id}>Delete This Item</DeleteItem>
                 </div>
             </ItemStyles>
